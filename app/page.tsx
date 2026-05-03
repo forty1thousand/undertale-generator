@@ -14,7 +14,6 @@ import {
   RefreshCcw,
   User,
   MessageSquare,
-  Image as ImageIcon,
   Loader2,
   Volume2,
   Video,
@@ -29,6 +28,7 @@ import {
 } from "@/lib/characters";
 import GIF from "gif.js";
 import confetti from "canvas-confetti";
+import { Slider } from "@/lib/slider";
 
 // Undertale Dialog Box Dimensions
 const BOX_WIDTH = 578;
@@ -105,6 +105,7 @@ export default function UndertaleGenerator() {
     loadVoice();
   }, [selectedChar, selectedVoiceIndex]);
 
+  const [speed, setSpeed] = useState(1);
   const speak = useCallback(() => {
     const ctx = getAudioContext();
     if (ctx.state === "suspended") ctx.resume();
@@ -211,7 +212,10 @@ export default function UndertaleGenerator() {
           scale = 2.7;
         }
         if (char.id == "toriel") {
-          scale = 2.7;
+          scale = 2.5;
+        }
+        if (char.id == "alphys") {
+          scale = 1.8;
         }
 
         const drawWidth = portrait.width * scale;
@@ -407,6 +411,9 @@ export default function UndertaleGenerator() {
             charsToType[i + 1]?.char === "\n")
         )
           delay = 200;
+
+        delay /= speed;
+
         gif.addFrame(ctx, { copy: true, delay });
 
         setProgress(Math.round(((i + 1) / charsToType.length) * 0.8 * 100));
@@ -526,7 +533,7 @@ export default function UndertaleGenerator() {
 
         charsToType.forEach(({ lineIdx, char }, i) => {
           // --- timing ---
-          let delay = 60;
+          let delay = 40;
           if (
             char === "." &&
             (charsToType[i + 1]?.char === " " ||
@@ -551,6 +558,8 @@ export default function UndertaleGenerator() {
               charsToType[i + 1]?.char === "\n")
           )
             delay = 200;
+
+          delay /= speed;
 
           const step = delay / 1000;
           const isSilent = char === " " || char === "\n";
@@ -778,6 +787,22 @@ export default function UndertaleGenerator() {
                 </div>
               </div>
             )}
+
+            <div className="mt-2 px-4 pt-4 bg-black/20 rounded border border-white/10 flex flex-col gap-3 pb-11">
+              <span className="text-[10px] text-white/30 uppercase tracking-widest font-bold">
+                Speed {"<"}- slower, faster -{">"}
+              </span>
+              <div className="mx-4">
+                <Slider
+                  minValue={0.2}
+                  value={speed}
+                  onChange={(newSpeed) => setSpeed(newSpeed as number)}
+                  step={0.1}
+                  maxValue={1.8}
+                  labelPosition="bottom"
+                />
+              </div>
+            </div>
 
             <div className="mt-2 p-4 bg-black/20 rounded border border-white/10 flex flex-col gap-3">
               <div className="flex items-center justify-between">
@@ -1045,13 +1070,18 @@ export default function UndertaleGenerator() {
           </p>
           <img
             className="size-2 my-auto pointer-events-none"
-            src="/images/Undertale_red_soul.svg.png"
+            src="https://forty1thousand.github.io/undertale-generator/images/Undertale_red_soul.svg.png"
           />
         </div>
         <div className="flex justify-center gap-6 opacity-50">
           <span>Toby Fox &copy; 2015</span>
           <span>Engine v1.0</span>
-          <span>Open Source</span>
+          <a
+            className="hover:underline"
+            href="https://github.com/forty1thousand/undertale-generator"
+          >
+            Open Source
+          </a>
         </div>
       </footer>
 
