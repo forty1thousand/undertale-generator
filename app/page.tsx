@@ -218,8 +218,15 @@ export default function UndertaleGenerator() {
           scale = 1.8;
         }
 
-        const drawWidth = portrait.width * scale;
-        const drawHeight = portrait.height * scale;
+        let drawWidth = portrait.width * scale;
+        let drawHeight = portrait.height * scale;
+
+        if (char.id == "sans") {
+          [drawWidth, drawHeight] = [80, 80];
+        }
+
+
+        console.log(drawWidth, drawHeight);
 
         const x = Math.floor(PADDING + 15);
         const y = Math.floor((BOX_HEIGHT - drawHeight) / 2);

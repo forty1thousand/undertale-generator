@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     icon: [
       {
         media: "(prefers-color-scheme: light)",
-        url: "/favicondark.ico",
-        href: "/favicondark.ico",
+        url: "https://forty1thousand.github.io/undertale-generator/favicondark.ico",
+        href: "https://forty1thousand.github.io/undertale-generator/favicondark.ico",
       },
       {
         media: "(prefers-color-scheme: dark)",
-        url: "/favicon.ico",
-        href: "/favicon.ico",
+        url: "https://forty1thousand.github.io/undertale-generator/favicon.ico",
+        href: "https://forty1thousand.github.io/undertale-generator/favicon.ico",
       },
     ],
   },
