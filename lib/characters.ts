@@ -32,7 +32,8 @@ export const CHARACTERS: Character[] = [
   {
     id: "sans",
     name: "Sans",
-    portraitUrl: "https://forty1thousand.github.io/undertale-generator/images/spr_face_sans.png",
+    portraitUrl:
+      "https://forty1thousand.github.io/undertale-generator/images/spr_face_sans.png",
     emotions: [
       {
         name: "Normal",
@@ -54,6 +55,38 @@ export const CHARACTERS: Character[] = [
         name: "Closed Eyes",
         url: "https://forty1thousand.github.io/undertale-generator/images/spr_face_sansblink.png",
       },
+      {
+        name: "Tired",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00001.png",
+      },
+      {
+        name: "Tired Ketchup",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00002.png",
+      },
+      {
+        name: "Closed Eyes Ketchup",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00003.png",
+      },
+      {
+        name: "Look Down Ketchup",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00004.png",
+      },
+      {
+        name: "Shocked",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00005.png",
+      },
+      {
+        name: "Cheeky",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00006.png",
+      },
+      {
+        name: "Happy",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00007.png",
+      },
+      {
+        name: "Blue Eye",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00008.png",
+      },
     ],
     voiceUrls: [
       "https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_txtsans.wav",
@@ -64,7 +97,8 @@ export const CHARACTERS: Character[] = [
   {
     id: "papyrus",
     name: "Papyrus",
-    portraitUrl: "https://forty1thousand.github.io/undertale-generator/images/spr_face_papyrus_0.png",
+    portraitUrl:
+      "https://forty1thousand.github.io/undertale-generator/images/spr_face_papyrus_0.png",
     emotions: [
       {
         name: "Normal",
@@ -87,13 +121,16 @@ export const CHARACTERS: Character[] = [
         url: "https://forty1thousand.github.io/undertale-generator/images/spr_face_papyrusevil_0.png",
       },
     ],
-    voiceUrls: ["https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_txtpap.wav"],
+    voiceUrls: [
+      "https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_txtpap.wav",
+    ],
     defaultFont: "papyrus",
   },
   {
     id: "toriel",
     name: "Toriel",
-    portraitUrl: "https://forty1thousand.github.io/undertale-generator/images/spr_face_torielhappy_2.png",
+    portraitUrl:
+      "https://forty1thousand.github.io/undertale-generator/images/spr_face_torielhappy_2.png",
     emotions: [
       {
         name: "Normal",
@@ -158,7 +195,8 @@ export const CHARACTERS: Character[] = [
   {
     id: "flowey",
     name: "Flowey",
-    portraitUrl: "https://forty1thousand.github.io/undertale-generator/images/spr_flowey_riseanim_0.png",
+    portraitUrl:
+      "https://forty1thousand.github.io/undertale-generator/images/spr_flowey_riseanim_0.png",
     emotions: [
       {
         name: "Normal",
@@ -214,7 +252,8 @@ export const CHARACTERS: Character[] = [
   {
     id: "undyne",
     name: "Undyne",
-    portraitUrl: "https://forty1thousand.github.io/undertale-generator/images/spr_face_undyne1.png",
+    portraitUrl:
+      "https://forty1thousand.github.io/undertale-generator/images/spr_face_undyne1.png",
     emotions: [
       {
         name: "Normal",
@@ -245,7 +284,8 @@ export const CHARACTERS: Character[] = [
   {
     id: "alphys",
     name: "Alphys",
-    portraitUrl: "https://forty1thousand.github.io/undertale-generator/images/spr_alphysface_0_0.png",
+    portraitUrl:
+      "https://forty1thousand.github.io/undertale-generator/images/spr_alphysface_0_0.png",
     emotions: [
       {
         name: "Normal",
@@ -280,13 +320,16 @@ export const CHARACTERS: Character[] = [
         url: "https://forty1thousand.github.io/undertale-generator/images/spr_alphysface_7_0.png",
       },
     ],
-    voiceUrls: ["https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_txtal.wav"],
+    voiceUrls: [
+      "https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_txtal.wav",
+    ],
     defaultFont: "determination",
   },
   {
     id: "asgore",
     name: "Asgore",
-    portraitUrl: "https://forty1thousand.github.io/undertale-generator/images/spr_asgore_face0_1.png",
+    portraitUrl:
+      "https://forty1thousand.github.io/undertale-generator/images/spr_asgore_face0_1.png",
     emotions: [
       {
         name: "Normal",
@@ -353,13 +396,16 @@ export const CHARACTERS: Character[] = [
         url: "https://forty1thousand.github.io/undertale-generator/images/spr_asgore_wrapface_0.png",
       },
     ],
-    voiceUrls: ["https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_txtasg.wav"],
+    voiceUrls: [
+      "https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_txtasg.wav",
+    ],
     defaultFont: "determination",
   },
   {
     id: "asriel",
     name: "Asriel",
-    portraitUrl: "https://forty1thousand.github.io/undertale-generator/images/spr_face_asriel0_1.png",
+    portraitUrl:
+      "https://forty1thousand.github.io/undertale-generator/images/spr_face_asriel0_1.png",
     emotions: [
       {
         name: "Normal",
