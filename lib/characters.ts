@@ -56,36 +56,32 @@ export const CHARACTERS: Character[] = [
         url: "https://forty1thousand.github.io/undertale-generator/images/spr_face_sansblink.png",
       },
       {
-        name: "Tired",
-        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00001.png",
-      },
-      {
         name: "Tired Ketchup",
-        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00002.png",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sanstiredketchup.png",
       },
       {
         name: "Closed Eyes Ketchup",
-        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00003.png",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sanseyesclosedketchup.png",
       },
       {
         name: "Look Down Ketchup",
-        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00004.png",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sanslookdownketchup.png",
+      },
+      {
+        name: "Wink Ketchup",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sanswinkketchup.png",
       },
       {
         name: "Shocked",
-        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00005.png",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sansshocked.png",
       },
       {
         name: "Cheeky",
-        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00006.png",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sanscheeky.png",
       },
       {
         name: "Happy",
-        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00007.png",
-      },
-      {
-        name: "Blue Eye",
-        url: "https://forty1thousand.github.io/undertale-generator/images/sans-00008.png",
+        url: "https://forty1thousand.github.io/undertale-generator/images/sanshappy.png",
       },
     ],
     voiceUrls: [
