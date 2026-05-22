@@ -238,6 +238,46 @@ export const CHARACTERS: Character[] = [
         name: "Frown",
         url: "https://forty1thousand.github.io/undertale-generator/images/spr_flowey_riseanim2_0.png",
       },
+      {
+        name: "Asgore",
+        url: "https://forty1thousand.github.io/undertale-generator/images/floweyasgore.png",
+      },
+      {
+        name: "Apprehensive 1",
+        url: "https://forty1thousand.github.io/undertale-generator/images/flowey2.png",
+      },
+      {
+        name: "Apprehensive 2",
+        url: "https://forty1thousand.github.io/undertale-generator/images/floweyside2.png",
+      },
+      {
+        name: "Apprehensive 3",
+        url: "https://forty1thousand.github.io/undertale-generator/images/floweysweat.png",
+      },
+      {
+        name: "Sweaty",
+        url: "https://forty1thousand.github.io/undertale-generator/images/floweysweaty.png",
+      },
+      {
+        name: "Speed Face",
+        url: "https://forty1thousand.github.io/undertale-generator/images/floweyspeed.png",
+      },
+      {
+        name: "Asriel 1",
+        url: "https://forty1thousand.github.io/undertale-generator/images/floweyasriel1.png",
+      },
+      {
+        name: "Asriel 2",
+        url: "https://forty1thousand.github.io/undertale-generator/images/floweyasriel2.png",
+      },
+      {
+        name: "Asriel 3",
+        url: "https://forty1thousand.github.io/undertale-generator/images/floweyasriel3.png",
+      },
+      {
+        name: "Asriel 4",
+        url: "https://forty1thousand.github.io/undertale-generator/images/floweyasriel4.png",
+      },
     ],
     voiceUrls: [
       "https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_floweytalk1.wav",
