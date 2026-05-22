@@ -282,6 +282,7 @@ export const CHARACTERS: Character[] = [
     voiceUrls: [
       "https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_floweytalk1.wav",
       "https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_floweytalk2.wav",
+      "https://forty1thousand.github.io/undertale-generator/sounds/sound_audio_snd_txtasr.wav",
     ],
     defaultFont: "determination",
   },
